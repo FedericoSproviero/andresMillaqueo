@@ -1,0 +1,68 @@
+html{
+    background-image: url(imagenes/bg-palm.jpg);
+    background-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    
+
+}
+.usuario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin: 35px;
+    margin-top: 100px;
+
+}
+.enlaces{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 35px;
+    
+
+}
+.cadaCaja{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    width: 450px;
+    height: 55px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 26px;
+}
+
+.cadaCaja i{
+    margin-left: 10px;
+    color: rgb(82, 212, 82);
+    font-size: 25px;
+    
+}
+
+.cadaCaja a{
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#redes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    font-size: 35px;
+    width: 300px;
+    height: 45px;
+
+
+}
